@@ -1,0 +1,64 @@
+body{
+    background-color: #FFFFFF;
+    color: black;
+}
+li{
+    list-style: none;
+    float:left;
+    padding:0px 18px;
+    margin-top:10px;
+    font-size:30px;
+    color:#7E22CE;
+}
+.logo{
+    display:flex;
+    float:left;
+    margin-top:15px;
+    font-size:50px;
+    color:#7E22CE;
+
+}
+.Nav{
+    display:flex;
+    float:left;
+}
+.act{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration:inherit;
+    
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+button{
+    background-color: #7E22CE;
+    color:white;
+    width:140px;
+    height:40px;
+    border-radius: 0.5rem;
+    font-size:30px;
+    text-align: center; 
+}
+button:hover{
+    background-color: #ffffff;
+    color:#7E22CE;
+}
+.company{
+    color:#7E22CE;
+}
+.auto-type{
+    color:#7E22CE;
+}
+.Nav-bar{
+    position: relative;
+}
+.container{
+    position: absolute;
+    top:100px
+}
